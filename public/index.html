@@ -20,10 +20,14 @@
     />
   </head>
   <body>
-    <main class="font-hanken-grotesk">
-      <article>
+    <main
+      class="font-hanken-grotesk desktop:h-90vh desktop:grid desktop:place-items-center"
+    >
+      <article
+        class="desktop:flex desktop:flex-row desktop:h-[68%] desktop:shadow-[0px_20px_20px_10px_#00000024] desktop:rounded-3xl"
+      >
         <section
-          class="bg-gradient-to-b from-light-slate-blue to-light-royal-blue h-38vh rounded-b-3xl flex flex-col justify-center items-center py-4"
+          class="bg-gradient-to-b from-light-slate-blue to-light-royal-blue h-38vh rounded-b-3xl flex flex-col justify-center items-center py-4 desktop:h-full desktop:rounded-3xl desktop:w-72"
         >
           <h1 class="font-bold text-light-lavender text-lg">Your Result</h1>
           <figure
@@ -34,17 +38,19 @@
           </figure>
           <div class="text-center">
             <h2 class="text-white font-bold text-2xl">Great</h2>
-            <p class="max-w-[16rem] text-light-lavender">
+            <p class="max-w-[16rem] text-light-lavender desktop:max-w-[14rem]">
               You scored higher than 65% of the people who have taken these
               tests.
             </p>
           </div>
         </section>
-        <section class="text-xl h-57vh p-8">
-          <h1 class="text-dark-gray-blue font-bold mb-4">Summary</h1>
+        <section class="text-xl desktop:text-sm h-57vh p-8">
+          <h1 class="text-dark-gray-blue font-bold mb-4 desktop:text-xl">
+            Summary
+          </h1>
           <div>
             <div
-              class="bg-light-red/[0.1] rounded-xl flex justify-between p-4 my-4"
+              class="bg-light-red/[0.1] rounded-xl flex justify-between p-4 my-4 desktop:w-72"
             >
               <figure class="flex">
                 <img
@@ -129,7 +135,7 @@
         </section>
       </article>
     </main>
-    <footer class="text-center text-sm">
+    <footer class="text-center text-sm desktop:h-10vh">
       <div class="attribution">
         Challenge by
         <a

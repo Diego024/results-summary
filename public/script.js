@@ -22,7 +22,12 @@ tailwind.config = {
             spacing: {
                 '38vh': '38vh',
                 '57vh': '57vh',
-            }
+                '90vh': '90vh',
+                '10vh': '10vh',
+            },
+            screens: {
+                'desktop': '1440px',
+            },
         }
     }
 }
